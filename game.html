@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+	<div id="position">
+		<h1>How fast are you?</h1>
+		<ul id="header">
+			<li id="score"></li>
+			<li id="timer">Time left: 15s</li>
+		</ul>
+		<canvas id="cv" width="480" height="480"></canvas>
+		<ul id="control">
+			<li>Press left arrow or A to move left.</li>
+			<li>Press top arrow or W to move up.</li>
+			<li>Press right arrow or D to move right.</li>
+			<li>Press bottom arrow or S to move down.</li>
+			<li>Press r to reset the game.</li>
+		</ul>
+
+		<h2>Actual scoreboard</h2>
+		<ul id="scoreboard">
+			<li id="HS">Highest score: --</li>
+			<li id="GN">Game number<span id="hgScore">Score</span></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="game.js"></script>
+
+
+</body>
+</html>

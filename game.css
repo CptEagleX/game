@@ -1,0 +1,43 @@
+#position {
+	width: 480px;
+	margin: 0 auto;
+}
+#header {
+	width: 100%;
+	padding: 0;
+}
+#header li {
+	display: inline-block;
+	list-style: none;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	width: 238px;
+}
+canvas {
+	border: 1px solid black;
+}
+#control li {
+	list-style: none;
+	font-size: 25px;
+
+}
+#scoreboard {
+	border: 1px solid black;
+}
+#scoreboard li {
+	font-size: 22px;
+	list-style: none;
+}
+#hgScore {
+	padding-left: 100px;
+}
+h2 {
+	padding-left: 60px;
+}
+#GN, #HS {
+	font-weight: 700;
+}
+#scoreboard li:nth-child(n + 3) span {
+	padding-left: 240px;
+} 
